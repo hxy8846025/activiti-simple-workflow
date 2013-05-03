@@ -171,7 +171,7 @@ public class WorkflowConversionTest {
   //ServiceTask test case
   public void testServiceTask() {
 	  String[] assignees = new String[] {"hccb", "hruser"};
-    
+     
     WorkflowDefinition workflowDefinition = new WorkflowDefinition()
       .name("testWorkflow")
       .description("This is a test workflow")
